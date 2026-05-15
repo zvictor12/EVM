@@ -1,0 +1,10 @@
+## Как запустить локально
+
+Из корня текущей папки:
+
+```bash
+uv --cache-dir /tmp/uv-cache sync
+uv --cache-dir /tmp/uv-cache run jupyter lab
+```
+
+Затем открыть `topic_4_regression_lab.ipynb` и выполнить ячейки сверху вниз.
